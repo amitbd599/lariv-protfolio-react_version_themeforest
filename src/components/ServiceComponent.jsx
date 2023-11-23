@@ -1,12 +1,20 @@
 import React from "react";
-import { FaCodeMerge } from "react-icons/fa6";
+import {
+  FaBlackberry,
+  FaCodeMerge,
+  FaDeezer,
+  FaDigitalOcean,
+  FaHtml5,
+  FaMobileScreen,
+  FaUikit,
+} from "react-icons/fa6";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 const ServiceComponent = () => {
   return (
     <section className="py-[30px] md:py-[80px]">
       <div className="container">
-        <div className="menuBox">
+        <div className="menuBox" data-aos="fade-up" data-aos-delay="50">
           <div className=" inline-block rounded-full border border-text px-[20px] py-[5px]">
             <div className="flex items-center gap-[6px]">
               <span>
@@ -20,12 +28,20 @@ const ServiceComponent = () => {
         </div>
         <br />
         <div className="mt-[10px] md:mt-[20px]">
-          <h2 className="text-[32px] font-semibold uppercase  leading-tight text-white md:text-[52px]">
+          <h2
+            className="text-[32px] font-semibold uppercase  leading-tight text-white md:text-[52px]"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             All the general services that
             <br className="hidden md:block" />I provide to
             <span className="text-theme"> clients!</span>
           </h2>
-          <p className="mt-[20px] text-text lg:w-[60%]">
+          <p
+            className="mt-[20px] text-text lg:w-[60%]"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
             The imperative for integrated, expansive, and seamless digital
             experiences is fueling software product design and development
             across organizations at an unprecedented scale. These demands
@@ -36,106 +52,118 @@ const ServiceComponent = () => {
 
         <div className="mt-[60px] md:mt-[80px]">
           <div className="grid  gap-y-[60px] md:grid-cols-12  md:gap-x-[30px]">
-            <div className="col-span-12 md:col-span-6 lg:col-span-4">
-              <div className="relative rounded-lg border border-text p-[20px]">
-                <div className="sup absolute left-[30px] top-[-30px] flex h-[80px] w-[80px] items-center justify-center rounded-2xl bg-white">
-                  <img src="assets/images/icon/coding-1.png" alt="" />
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div className="group rounded-2xl bg-btn p-[30px]">
+                <div>
+                  <FaBlackberry className="text-[60px] text-theme" />
                 </div>
-                <div className="pt-[60px]">
-                  <h2 className="text-[20px] font-medium text-white md:text-[26px]">
-                    Front-end Development
-                  </h2>
-                  <p className="mt-[10px] text-text">
-                    Counseled for new companies, and teamed up with capable
-                    individuals to make computerized items for both business and
-                    purchaser use.
-                  </p>
-                </div>
+                <h2 className="pt-5 text-[20px] font-medium text-white md:text-[26px]">
+                  Business Stratagy
+                </h2>
+                <p className="mt-[10px] text-text">
+                  Counseled for new companies, and teamed up with capable
+                  individuals to make computerized items for both business and
+                  purchaser use.
+                </p>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-4">
-              <div className="relative rounded-lg border border-text p-[20px]">
-                <div className="sup absolute left-[30px] top-[-30px] flex h-[80px] w-[80px] items-center justify-center rounded-2xl bg-white">
-                  <img src="assets/images/icon/coding-2.png" alt="" />
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <div className="group rounded-2xl bg-btn p-[30px]">
+                <div>
+                  <FaHtml5 className="text-[60px] text-theme" />
                 </div>
-                <div className="pt-[60px]">
-                  <h2 className="text-[20px] font-medium text-white md:text-[26px]">
-                    Back-end Development
-                  </h2>
-                  <p className="mt-[10px] text-text">
-                    Counseled for new companies, and teamed up with capable
-                    individuals to make computerized items for both business and
-                    purchaser use.
-                  </p>
-                </div>
+                <h2 className="pt-5 text-[20px] font-medium text-white md:text-[26px]">
+                  Website Development
+                </h2>
+                <p className="mt-[10px] text-text">
+                  Counseled for new companies, and teamed up with capable
+                  individuals to make computerized items for both business and
+                  purchaser use.
+                </p>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-4">
-              <div className="relative rounded-lg border border-text p-[20px]">
-                <div className="sup absolute left-[30px] top-[-30px] flex h-[80px] w-[80px] items-center justify-center rounded-2xl bg-white">
-                  <img src="assets/images/icon/coding-2.png" alt="" />
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div className="group rounded-2xl bg-btn p-[30px]">
+                <div>
+                  <FaDeezer className="text-[60px] text-theme" />
                 </div>
-                <div className="pt-[60px]">
-                  <h2 className="text-[20px] font-medium text-white md:text-[26px]">
-                    Back-end Development
-                  </h2>
-                  <p className="mt-[10px] text-text">
-                    Counseled for new companies, and teamed up with capable
-                    individuals to make computerized items for both business and
-                    purchaser use.
-                  </p>
-                </div>
+                <h2 className="pt-5 text-[20px] font-medium text-white md:text-[26px]">
+                  Marketing & Reporting
+                </h2>
+                <p className="mt-[10px] text-text">
+                  Counseled for new companies, and teamed up with capable
+                  individuals to make computerized items for both business and
+                  purchaser use.
+                </p>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-4">
-              <div className="relative rounded-lg border border-text p-[20px]">
-                <div className="sup absolute left-[30px] top-[-30px] flex h-[80px] w-[80px] items-center justify-center rounded-2xl bg-white">
-                  <img src="assets/images/icon/coding-2.png" alt="" />
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div className="group rounded-2xl bg-btn p-[30px]">
+                <div>
+                  <FaMobileScreen className="text-[60px] text-theme" />
                 </div>
-                <div className="pt-[60px]">
-                  <h2 className="text-[20px] font-medium text-white md:text-[26px]">
-                    Back-end Development
-                  </h2>
-                  <p className="mt-[10px] text-text">
-                    Counseled for new companies, and teamed up with capable
-                    individuals to make computerized items for both business and
-                    purchaser use.
-                  </p>
-                </div>
+                <h2 className="pt-5 text-[20px] font-medium text-white md:text-[26px]">
+                  Mobile App Development
+                </h2>
+                <p className="mt-[10px] text-text">
+                  Counseled for new companies, and teamed up with capable
+                  individuals to make computerized items for both business and
+                  purchaser use.
+                </p>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-4">
-              <div className="relative rounded-lg border border-text p-[20px]">
-                <div className="sup absolute left-[30px] top-[-30px] flex h-[80px] w-[80px] items-center justify-center rounded-2xl bg-white">
-                  <img src="assets/images/icon/coding-2.png" alt="" />
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <div className="group rounded-2xl bg-btn p-[30px]">
+                <div>
+                  <FaDigitalOcean className="text-[60px] text-theme" />
                 </div>
-                <div className="pt-[60px]">
-                  <h2 className="text-[20px] font-medium text-white md:text-[26px]">
-                    Back-end Development
-                  </h2>
-                  <p className="mt-[10px] text-text">
-                    Counseled for new companies, and teamed up with capable
-                    individuals to make computerized items for both business and
-                    purchaser use.
-                  </p>
-                </div>
+                <h2 className="pt-5 text-[20px] font-medium text-white md:text-[26px]">
+                  Digital Marketing
+                </h2>
+                <p className="mt-[10px] text-text">
+                  Counseled for new companies, and teamed up with capable
+                  individuals to make computerized items for both business and
+                  purchaser use.
+                </p>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-4">
-              <div className="relative rounded-lg border border-text p-[20px]">
-                <div className="sup absolute left-[30px] top-[-30px] flex h-[80px] w-[80px] items-center justify-center rounded-2xl bg-white">
-                  <img src="assets/images/icon/coding-2.png" alt="" />
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div className="group rounded-2xl bg-btn p-[30px]">
+                <div>
+                  <FaUikit className="text-[60px] text-theme" />
                 </div>
-                <div className="pt-[60px]">
-                  <h2 className="text-[20px] font-medium text-white md:text-[26px]">
-                    Back-end Development
-                  </h2>
-                  <p className="mt-[10px] text-text">
-                    Counseled for new companies, and teamed up with capable
-                    individuals to make computerized items for both business and
-                    purchaser use.
-                  </p>
-                </div>
+                <h2 className="pt-5 text-[20px] font-medium text-white md:text-[26px]">
+                  UI/UX Design
+                </h2>
+                <p className="mt-[10px] text-text">
+                  Counseled for new companies, and teamed up with capable
+                  individuals to make computerized items for both business and
+                  purchaser use.
+                </p>
               </div>
             </div>
           </div>
@@ -143,10 +171,16 @@ const ServiceComponent = () => {
 
         {/* Review Information */}
         <div className="mt-[100px]">
-          <h2 className="text-[32px] font-semibold">What People Says?:</h2>
+          <h2
+            className="text-[32px] font-semibold"
+            data-aos="fade-up"
+            data-aos-delay="50"
+          >
+            What People Says?:
+          </h2>
 
           {/* Slider */}
-          <div className="mt-[30px]">
+          <div className="mt-[30px]" data-aos="fade-up" data-aos-delay="150">
             <Swiper
               modules={[Pagination]}
               spaceBetween={30}
@@ -213,7 +247,7 @@ const ServiceComponent = () => {
 
                   <div className="flex items-center gap-4 pt-[30px]">
                     <div className="inline-block w-[80px] overflow-hidden rounded-full">
-                      <img src="assets/images/user/user-1.png" alt="" />
+                      <img src="assets/images/user/user-2.png" alt="" />
                     </div>
                     <div className="grid gap-[10px]">
                       <p className="text-base font-semibold text-white  lg:text-[24px]">
@@ -234,7 +268,7 @@ const ServiceComponent = () => {
 
                   <div className="flex items-center gap-4 pt-[30px]">
                     <div className="inline-block w-[80px] overflow-hidden rounded-full">
-                      <img src="assets/images/user/user-1.png" alt="" />
+                      <img src="assets/images/user/user-3.png" alt="" />
                     </div>
                     <div className="grid gap-[10px]">
                       <p className="text-base font-semibold text-white  lg:text-[24px]">
@@ -255,7 +289,7 @@ const ServiceComponent = () => {
 
                   <div className="flex items-center gap-4 pt-[30px]">
                     <div className="inline-block w-[80px] overflow-hidden rounded-full">
-                      <img src="assets/images/user/user-1.png" alt="" />
+                      <img src="assets/images/user/user-4.png" alt="" />
                     </div>
                     <div className="grid gap-[10px]">
                       <p className="text-base font-semibold text-white  lg:text-[24px]">
@@ -276,7 +310,7 @@ const ServiceComponent = () => {
 
                   <div className="flex items-center gap-4 pt-[30px]">
                     <div className="inline-block w-[80px] overflow-hidden rounded-full">
-                      <img src="assets/images/user/user-1.png" alt="" />
+                      <img src="assets/images/user/user-5.png" alt="" />
                     </div>
                     <div className="grid gap-[10px]">
                       <p className="text-base font-semibold text-white  lg:text-[24px]">

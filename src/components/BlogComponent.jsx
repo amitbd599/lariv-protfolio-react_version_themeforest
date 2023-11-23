@@ -6,7 +6,7 @@ const BlogComponent = () => {
   return (
     <section className="py-[30px] md:py-[80px]">
       <div className="container">
-        <div className="menuBox">
+        <div className="menuBox" data-aos="fade-up" data-aos-delay="50">
           <div className=" inline-block rounded-full border border-text px-[20px] py-[5px]">
             <div className="flex items-center gap-[6px]">
               <span>
@@ -18,12 +18,20 @@ const BlogComponent = () => {
         </div>
         <br />
         <div className="mt-[10px] md:mt-[20px]">
-          <h2 className="text-[32px] font-semibold uppercase  leading-tight text-white md:text-[52px]">
+          <h2
+            className="text-[32px] font-semibold uppercase  leading-tight text-white md:text-[52px]"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             Never Compromise For Our <br className="hidden md:block" />
             Portfolio to
             <span className="text-theme"> Quality!</span>
           </h2>
-          <p className="mt-[20px] text-text lg:w-[60%]">
+          <p
+            className="mt-[20px] text-text lg:w-[60%]"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
             The imperative for integrated, expansive, and seamless digital
             experiences is fueling software product design and development
             across organizations at an unprecedented scale. These demands
@@ -34,7 +42,11 @@ const BlogComponent = () => {
 
         <div className="mt-[60px] md:mt-[80px]">
           <div className="grid  gap-y-[30px] md:grid-cols-12  md:gap-x-[30px]">
-            <div className="col-span-12 md:col-span-6 lg:col-span-4 ">
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4 "
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <div className="group rounded-xl bg-card p-[25px]">
                 <div className="h-[260px] w-full overflow-hidden rounded-2xl">
                   <img
@@ -76,7 +88,11 @@ const BlogComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-4 ">
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4 "
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
               <div className="group rounded-xl bg-card p-[25px]">
                 <div className="h-[260px] w-full overflow-hidden rounded-2xl">
                   <img
@@ -118,7 +134,11 @@ const BlogComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-4 ">
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4 "
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               <div className="group rounded-xl bg-card p-[25px]">
                 <div className="h-[260px] w-full overflow-hidden rounded-2xl">
                   <img
@@ -160,7 +180,11 @@ const BlogComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-4 ">
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4 "
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <div className="group rounded-xl bg-card p-[25px]">
                 <div className="h-[260px] w-full overflow-hidden rounded-2xl">
                   <img
@@ -202,7 +226,11 @@ const BlogComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-4 ">
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4 "
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
               <div className="group rounded-xl bg-card p-[25px]">
                 <div className="h-[260px] w-full overflow-hidden rounded-2xl">
                   <img
@@ -244,7 +272,11 @@ const BlogComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6 lg:col-span-4 ">
+            <div
+              className="col-span-12 md:col-span-6 lg:col-span-4 "
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               <div className="group rounded-xl bg-card p-[25px]">
                 <div className="h-[260px] w-full overflow-hidden rounded-2xl">
                   <img
@@ -289,7 +321,7 @@ const BlogComponent = () => {
           </div>
 
           {/* pagination */}
-          <div className="mt-[60px]">
+          <div className="mt-[60px]" data-aos="fade-up" data-aos-delay="100">
             <ul className=" flex justify-center space-x-4">
               <li className="group">
                 <Link to={"/blog-details"} className="pagination">

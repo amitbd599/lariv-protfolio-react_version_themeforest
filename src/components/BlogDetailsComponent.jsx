@@ -9,13 +9,14 @@ import {
   FaRegCommentDots,
   FaTwitter,
 } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const BlogDetailsComponent = () => {
   return (
     <>
       <section className="py-[30px] md:py-[80px]">
         <div className="container">
-          <div className="menuBox">
+          <div className="menuBox" data-aos="fade-up" data-aos-delay="50">
             <div className=" inline-block rounded-full border border-text px-[20px] py-[5px]">
               <div className="flex items-center gap-[6px]">
                 <span>
@@ -29,19 +30,31 @@ const BlogDetailsComponent = () => {
           </div>
           <div className="mt-[60px]  ">
             <div>
-              <div className="w-full overflow-hidden lg:h-[720px]">
+              <div
+                className="w-full overflow-hidden lg:h-[720px]"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
                 <img
                   src="/assets/images/blog/blog-feature.png"
                   alt=""
                   className="h-full w-full rounded-lg object-cover"
                 />
               </div>
-              <div className="title mt-[40px]">
+              <div
+                className="title mt-[40px]"
+                data-aos="fade-up"
+                data-aos-delay="150"
+              >
                 <h2 className="text-[26px] font-semibold capitalize leading-[36px] text-white md:text-[32px] md:leading-[42px]">
                   Open-source software to speed up quantum research
                 </h2>
               </div>
-              <div className="mt-[20px] flex items-center gap-[20px]">
+              <div
+                className="mt-[20px] flex items-center gap-[20px]"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
                 <div className="flex items-center gap-[10px]">
                   <span>
                     <FaClockRotateLeft className="text-base text-theme" />
@@ -55,7 +68,11 @@ const BlogDetailsComponent = () => {
                   <span className="text-sm text-text">3 Comments</span>
                 </div>
               </div>
-              <div className="mt-[30px]">
+              <div
+                className="mt-[30px]"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
                 <p className="text-text">
                   Quantum technology is expected to fundamentally change many
                   key areas of society. Researchers are convinced that there are
@@ -285,38 +302,46 @@ const BlogDetailsComponent = () => {
               </div>
               <div className="mt-[30px]">
                 <div className="grid items-center justify-between md:flex">
-                  <div>
+                  <div data-aos="fade-up" data-aos-delay="100">
                     <p className="text-[18px] font-semibold text-white">
                       By Alex Johan
                     </p>
                   </div>
-                  <div className="mt-[20px] md:mt-0">
+                  <div
+                    className="mt-[20px] md:mt-0"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
                     <div className=" mt-[30px] flex  justify-center gap-3">
-                      <a href="#" className="block">
+                      <Link href="javascript:void(0)" className="block">
                         <FaFacebookF className=" socialRound" />
-                      </a>
-                      <a href="#" className="block">
+                      </Link>
+                      <Link href="javascript:void(0)" className="block">
                         <FaTwitter className=" socialRound" />
-                      </a>
-                      <a href="#" className="block">
+                      </Link>
+                      <Link href="javascript:void(0)" className="block">
                         <FaLinkedinIn className=" socialRound" />
-                      </a>
-                      <a href="#" className="block">
+                      </Link>
+                      <Link href="javascript:void(0)" className="block">
                         <FaGitAlt className=" socialRound" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="mt-[30px] md:mt-[10px]">
-                <div>
+                <div data-aos="fade-up" data-aos-delay="100">
                   <h2 className="text-[22px] font-semibold text-white">
                     03 Comments
                   </h2>
                 </div>
                 <div className="my-[15px] border-t border-[#ddd] " />
                 <div className="parent mt-[40px] grid gap-[30px]">
-                  <div className="flex w-full gap-[30px]">
+                  <div
+                    className="flex w-full gap-[30px]"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
                     <div className="w-[20%] md:w-auto">
                       <img
                         src="/assets/images/user/user-1.png"
@@ -344,7 +369,11 @@ const BlogDetailsComponent = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="flex w-full gap-[30px]">
+                  <div
+                    className="flex w-full gap-[30px]"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
                     <div className="w-[20%] md:w-auto">
                       <img
                         src="/assets/images/user/user-2.png"
@@ -374,7 +403,7 @@ const BlogDetailsComponent = () => {
                   </div>
                 </div>
                 <div className="mt-[60px]">
-                  <div>
+                  <div data-aos="fade-up" data-aos-delay="100">
                     <h2 className="text-[22px] font-semibold text-white">
                       Post a Comment
                     </h2>

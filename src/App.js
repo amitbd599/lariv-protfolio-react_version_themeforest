@@ -7,8 +7,19 @@ import Portfolio from "./pages/Portfolio";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import BlogDetails from "./pages/BlogDetails";
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      offset: 0,
+      easing: "ease",
+      once: true,
+      duration: 1000,
+    });
+    AOS.refresh();
+  }, []);
   return (
     <BrowserRouter>
       <RouteScrollToTop />

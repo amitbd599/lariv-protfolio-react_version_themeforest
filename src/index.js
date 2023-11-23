@@ -7,17 +7,10 @@ import "./app.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "@material-tailwind/react";
-import { Toaster } from "react-hot-toast";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.Fragment>
     <ThemeProvider>
-      <Toaster
-        containerClassName="toaster-container"
-        toastOptions={{
-          duration: 500000,
-        }}
-      />
       <App />
     </ThemeProvider>
   </React.Fragment>

@@ -1,12 +1,11 @@
 import React from "react";
 import { FaRegEnvelope } from "react-icons/fa6";
-import { Link } from "react-router-dom";
 
 const ContactComponent = () => {
   return (
     <section className="py-[30px] md:py-[80px]">
       <div className="container">
-        <div className="menuBox">
+        <div className="menuBox" data-aos="fade-up" data-aos-delay="50">
           <div className=" inline-block rounded-full border border-text px-[20px] py-[5px]">
             <div className="flex items-center gap-[6px]">
               <span>
@@ -18,12 +17,20 @@ const ContactComponent = () => {
         </div>
         <br />
         <div className="mt-[10px] md:mt-[20px]">
-          <h2 className="text-[32px] font-semibold uppercase  leading-tight text-white md:text-[52px]">
+          <h2
+            className="text-[32px] font-semibold uppercase  leading-tight text-white md:text-[52px]"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             Let’s discuss about <br className="hidden md:block" />
             an
             <span className="text-theme"> project!</span>
           </h2>
-          <p className="mt-[20px] text-text lg:w-[60%]">
+          <p
+            className="mt-[20px] text-text lg:w-[60%]"
+            data-aos="fade-up"
+            data-aos-delay="150"
+          >
             The imperative for integrated, expansive, and seamless digital
             experiences is fueling software product design and development
             across organizations at an unprecedented scale. These demands
@@ -34,11 +41,22 @@ const ContactComponent = () => {
 
         <div className="mt-[60px] md:mt-[80px]">
           <div>
-            <h2 className="text-[32px] font-semibold">Let's Work Together!</h2>
+            <h2
+              className="text-[32px] font-semibold"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              Let's Work Together!
+            </h2>
           </div>
           <div className="grid grid-cols-12 gap-[30px]">
             <div className="col-span-12 mt-[30px] lg:col-span-7">
-              <form id="contact-form" className="contact-form">
+              <form
+                id="contact-form"
+                className="contact-form"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
                 <div className="grid gap-[30px] md:flex">
                   <input
                     className="inputBox"
@@ -87,7 +105,11 @@ const ContactComponent = () => {
                 </div>
               </form>
             </div>
-            <div className="col-span-12 lg:col-span-5">
+            <div
+              className="col-span-12 lg:col-span-5"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <div className="mt-[30px] rounded-xl bg-card p-[10px]">
                 <div className="contact-map">
                   <iframe
